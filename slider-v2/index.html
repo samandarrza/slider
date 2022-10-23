@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<title>Slider V2</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="assets/css/main.css">
+<body>
+    <h2 class="center"></h2>
+    <div class="content display-container">
+        <div class="content" style="max-width:1200px">
+            <img class="mySlides" src="assets/imgs/1.jpg">
+            <img class="mySlides" src="assets/imgs/2.jpg">
+            <img class="mySlides" src="assets/imgs/3.jpg">
+            <img class="mySlides" src="assets/imgs/4.jpg">
+            <img class="mySlides" src="assets/imgs/5.jpg">
+            <img class="mySlides" src="assets/imgs/6.jpg">
+            <div class="row-padding section">
+                <div class="col s2">
+                    <img class="slide opacity hover-opacity-off" src="assets/imgs/1.jpg" onclick="currentDiv(1)">
+                </div>
+                <div class="col s2">
+                    <img class="slide opacity hover-opacity-off" src="assets/imgs/2.jpg" onclick="currentDiv(2)">
+                </div>
+                <div class="col s2">
+                    <img class="slide opacity hover-opacity-off" src="assets/imgs/3.jpg" onclick="currentDiv(3)">
+                </div>
+                <div class="col s2">
+                    <img class="slide opacity hover-opacity-off" src="assets/imgs/4.jpg" onclick="currentDiv(4)">
+                </div>
+                <div class="col s2">
+                    <img class="slide opacity hover-opacity-off" src="assets/imgs/5.jpg" onclick="currentDiv(5)">
+                </div>
+                <div class="col s2">
+                    <img class="slide opacity hover-opacity-off" src="assets/imgs/6.jpg" onclick="currentDiv(6)">
+                </div>
+            </div>
+        </div>
+        <button class="button black display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="button black display-right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
